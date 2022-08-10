@@ -1,0 +1,25 @@
+/* CSS styling for Dark-mode and light mode toggle */
+
+i.toggler {
+    color: rgb(0, 0, 0);
+    float: right;
+    font-size: 20px;
+}
+
+.dark-mode {
+    background-color: black;
+}
+
+.dark-mode i.toggler {
+    color: white;
+}
+
+.dark-mode .container {
+    background-color: white;
+}
+
+.dark-mode p, .dark-mode h3 {
+    color: black;
+}
+
+/* End of CSS Styling for dark and light mode toggle */
